@@ -1,0 +1,5 @@
+# helm artifacts
+.helmignore
+
+# macOS related files
+.DS_Store

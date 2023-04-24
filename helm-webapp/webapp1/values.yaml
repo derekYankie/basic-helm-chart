@@ -1,0 +1,15 @@
+# Custom Values for Helm Created: 04/23/2023
+appName: my-helm-app
+
+port: 80
+
+namespace: basic-helm
+
+configmap:
+  name: my-helm-app-configmap-v1
+  data:
+    CUSTOM_HEADER: 'This app was deployed with helm! ^_^'
+
+image:
+  name: cheesburger/flask-example # Cat GIF of the Day! https://hub.docker.com/repository/docker/cheesburger/flask-example/general
+  tag: latest
