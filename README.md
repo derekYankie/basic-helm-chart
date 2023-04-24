@@ -1,1 +1,1 @@
-# basic-helm-chat
+# basic-helm-chart
